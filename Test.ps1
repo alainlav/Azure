@@ -1,4 +1,4 @@
-folder = "c:\temp"
+$folder = "c:\temp"
 $log = "c:\temp\AzureLog.txt"
 $date = get-date
 

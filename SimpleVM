@@ -1,4 +1,3 @@
-
 New-AzureRmVM `
   -ResourceGroupName $RGname `
   -Name 'TestalainVM' `

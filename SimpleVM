@@ -1,8 +1,8 @@
-# Create a virtual machine
+
 New-AzureRmVM `
   -ResourceGroupName $RGname `
   -Name 'TestalainVM' `
-  -Location $location `
+  -Location 'TestAlain' `
   -ImageName "Win2016Datacenter" `
   -VirtualNetworkName "myVnet" `
   -SubnetName "mySubnet" `
